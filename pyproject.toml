@@ -8,7 +8,7 @@ readme = "README.md"
 requires-python = "==3.11.*"
 
 dependencies = [
-    "feature_engine",
+    "feature-engine",
     "jupyter",
     "matplotlib",
     "pandas==2.*",
@@ -20,7 +20,7 @@ dependencies = [
     "seaborn",
     "sentence_transformers",
     "torch",
-    "tqdm",
+    "tqdm"
 ]
 
 [dependency-groups]
