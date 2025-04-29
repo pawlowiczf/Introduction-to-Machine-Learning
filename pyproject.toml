@@ -4,8 +4,8 @@ version = "1.0.0"
 description = ""
 authors = [{name = "Jakub Adamczyk (j-adamczyk)", email = "jadamczy@agh.edu.pl"}]
 readme = "README.md"
+
 requires-python = "==3.11.*"
-package-mode = false 
 
 dependencies = [
     "feature-engine",
@@ -42,3 +42,7 @@ ignore = [
     "E731",  # lambda expressions
 ]
 exclude = ["**notebook.ipynb"]
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.11.7"
+
