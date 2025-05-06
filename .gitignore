@@ -1,1 +1,3 @@
 /lab2/images
+**/*.joblib
+lab4/gs_cv_multinomial_nb.joblib
